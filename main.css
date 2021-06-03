@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row-show {
+  display: inline;
+  width: 200px;
+}
+
+.parentDiv {
+  text-align: center;
+}
+
+.introDiv {
+  padding-top: 10%;
+  background-image: url("https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 4in;
+}
+
+.polaroid {
+  background-color: bisque;
+  padding: 0px 50px;
+}
+
+.frame {
+  flex-direction: column;
+  display: inline-block;
+  background-color: aliceblue;
+  padding: 10px 10px 20px;
+  margin: 20px 50px;
+}
+
+.image {
+  padding: 10px;
+  display: block;
+  height: 400px;
+  width: 300px;
+}
+
+.caption {
+  display: inline-block;
+}
